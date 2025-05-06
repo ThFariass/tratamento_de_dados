@@ -5,3 +5,6 @@ Durante esta etapa de tratamento de dados, aplicamos um fluxo claro e direto em 
 No tratamento de e‑mails, criei uma expressão regular que valida domínios e sufixos, convertendo tudo para letras minúsculas e sinalizando, com o texto “Email Inválido”, casos fora do padrão. Ao final, cada coluna passou por sua respectiva função de transformação, resultando em valores consistentes e de fácil interpretação.
 
 O processo seguiu o conceito de ETL (Extract, Transform, Load): extraímos os dados originais, aplicamos transformações específicas para cada atributo e, por fim, geramos um arquivo CSV limpo e padronizado. Esse pipeline Python assegura que a base esteja organizada, pronta para alimentar relatórios, dashboards ou qualquer análise que vier a ser realizada, garantindo confiabilidade e agilidade em projetos futuros.
+
+Arquivo src contem os scripts.
+Arquivo data contem o csv atualizado
